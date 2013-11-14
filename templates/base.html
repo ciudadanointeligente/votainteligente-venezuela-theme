@@ -6,7 +6,7 @@
 <html prefix="og: http://ogp.me/ns/{{ 'type'|ogpdata }}#">
     <head>
         <meta charset="utf-8">
-        <title>{% trans "Elije tu candidato" %} {% block title %}- {{ 'home_title'|website_gs }}{% endblock title %}</title>
+        <title>{% trans "Elige tu candidato" %} {% block title %}- {{ 'home_title'|website_gs }}{% endblock title %}</title>
         <meta name="author" content="{{ 'author'|metadata }}">
         <meta name="description" content="{{ 'description'|metadata }}">
         <meta name="keywords" content="{{ 'keywords'|metadata }}">
@@ -55,7 +55,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/"><img src="{% static 'img/logo-votainteligente.png' %}" class="img-responsive" title="Vota Inteligente" alt="Vota Inteligente"></a>
+                        <a class="navbar-brand" href="/"><h2>Elige tu candidato</h2></a>
                     </div>
                     <div class="collapse navbar-collapse">
                         {% get_flatpages as flatpages %}
@@ -97,6 +97,11 @@
                             <li><a href="#" class="email-prensa" target="_top"><i class="icon-envelope-alt"></i>Contacto prensa</a></li>
                             <li><a href="http://bit.ly/17qiMkf" target="_blank"><i class="icon-map-marker"></i>Holanda 895, Providencia, Santiago, Chile</a></li>
                         </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 logos-footer">
+                        Una iniciativa de <a href="http://transparencia.org.ve/" target="_blank"><img src="https://googledrive.com/host/0B6QQVPLH_F8XSzF6c29VV1VwQTg/logo-transparencia.png" alt="Transparencia Venezuela" title="Transparencia Venezuela"></a>
                     </div>
                 </div>
             </div>
