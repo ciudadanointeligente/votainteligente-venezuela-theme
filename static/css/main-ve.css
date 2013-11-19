@@ -8,11 +8,31 @@
 	color: #fff;
 }
 
+.navbar-brand p {
+	font-style: italic;
+	font-size: 16px;
+	margin-top: -12px;
+	float: right;
+	color: rgba(255, 255, 255, 0.81);
+}
+
+#video-electoral .modal-dialog {
+	width: 620px;
+}
+
 /*Footer*/
 
 .col-md-12.logos-footer {
-text-align: center;
-border-top: 1px solid #48515F;
-margin-top: 20px;
-padding-top: 30px;
+	text-align: center;
+	border-top: 1px solid #48515F;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+#footer .extra-footer img {
+	opacity: 0.8;
+}
+
+#footer .extra-footer img:hover {
+	opacity: 1;
 }
