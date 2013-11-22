@@ -1,4 +1,7 @@
 /*Header */
+body {
+	padding-top: 45px;
+}
 
 .navbar-inverse .navbar-brand h1 {
 	font-weight: 900;
