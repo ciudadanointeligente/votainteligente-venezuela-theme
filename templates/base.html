@@ -60,6 +60,7 @@
                     <div class="collapse navbar-collapse">
                         {% get_flatpages as flatpages %}
                         <ul class="nav navbar-nav">
+                            <li><a href="http://www.cne.gob.ve/resultado_municipal_2013/r/1/reg_000000.html" target="_blank">Candidatos electos</a></li>
                             {% for page in flatpages %}
                             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                             {% endfor %}
